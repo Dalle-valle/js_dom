@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="">
+    <style>
+        #green {
+            height: 100px;
+            width: 100px;
+            line-height: 100px;
+            text-align: center;
+            background-color: green;
+        }
+
+        #red {
+            height: 100px;
+            width: 100px;
+            line-height: 100px;
+            border-radius: 50%;
+            text-align: center;
+            background-color: red;
+
+        }
+
+    </style>
+</head>
+
+<body>
+    <div id="green"></div>
+    <div id="red"></div>
+    <script>
+        const green = document.querySelector("div:nth-child(1)");
+        const red = document.querySelector("div:nth-child(2)");
+        green.innerHTML = `<img src="http://mabe-kea.dk/E19/pics/frog.png">`;
+        red.innerHTML = `<img src="http://mabe-kea.dk/E19/pics/pig.png">`;
+
+    </script>
+</body>
+
+</html>
